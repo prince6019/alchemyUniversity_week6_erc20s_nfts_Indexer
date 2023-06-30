@@ -1,0 +1,77 @@
+.home{
+  width: 60%;
+}
+.home_container{
+    background-color: var(--bg-shadow-dark-color);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .home_container >form >input{
+    width: 80%;
+    height: 3rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: larger;
+    color:black;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+    font-weight: 500;
+  }
+
+  
+  .home_container_tokenlist{
+    margin-top: 2rem;
+  }
+  .home_token_heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background-color: var(--main-bg-color);
+    border: 1px solid var(--icons-color);
+
+  }
+  .home_container_tokenlist_token{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:var(--bg-shadow-dark-color);
+    padding: 0 1rem;
+    border: 1px solid var(--icons-color);
+
+  }
+
+  .home_container_tokenlist_token p{
+    max-width: 6rem;
+  }
+  .tokensymbol{
+    position: absolute;
+    left: 30%;
+  }
+
+  .reactloading{
+    margin: 0 auto;
+  }
+  .button{
+    height: 3rem;
+    width: 40%;
+    background-color: var(--main-bg-color);
+    color: var(--icons-color);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all ease-in 0.3s;
+    box-shadow: var(--box-shadow-2);
+    cursor: pointer;
+  }
+  .button:hover{
+    background-color: var(--shadow-light-color);
+  }

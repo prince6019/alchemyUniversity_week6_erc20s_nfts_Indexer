@@ -1,0 +1,3 @@
+[submodule "erc-20-indexer"]
+	path = erc-20-indexer
+	url = https://github.com/prince6019/alchemyUniversity_week6_ERC_NFTs_indexer.git
